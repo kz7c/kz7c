@@ -1,12 +1,8 @@
 ![kz7c](https://raw.githubusercontent.com/kz7c/kz7c/main/image.jpg)
 ## About Me
-主にphpを使ってwebサイトの作成をしています。
-
-## Using Editor
-<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=visualstudio,vscode,vim" />  
-
+わからないことは動かして理解するタイプです
 ## Skills
-<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=html,css,php,mysql,cs,py,js,nodejs,discordjs,bots" />  
+<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=10&i=html,css,nodejs,js,ts,php,python,cpp" />  
 
 ## About Github
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kz7c&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="kz7c" />

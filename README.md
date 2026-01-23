@@ -5,5 +5,5 @@
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=10&i=html,css,nodejs,js,ts,php,python,cpp" />  
 
 ## About Github
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kz7c&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="kz7c" />
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kz7c&&theme=tokyonight" alt="kz7c" />
+![stats](https://github-readme-stats.vercel.app/api/top-langs?username=kz7c&show_icons=true&locale=en&layout=compact&theme=tokyonight)
+![streak-stats](https://github-readme-streak-stats.herokuapp.com/?user=kz7c&&theme=tokyonight)

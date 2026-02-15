@@ -50,9 +50,9 @@ for (const repo of repos) {
   try {
     const langResponse = await fetch(repo.languages_url, { headers });
     if (!langResponse.ok) continue;
-    
+
     const languages: LanguageStats = await langResponse.json();
-    
+
     for (const [lang, bytes] of Object.entries(languages)) {
       totalLanguages[lang] = (totalLanguages[lang] || 0) + (bytes as number);
     }
@@ -101,11 +101,11 @@ languagePercentages.forEach((item) => {
 --------------------*/
 // chart color list
 const colors = [
-  "#850000", "#007169", "#006075", "#832500", "#008967",
-  "#977900", "#540079", "#00527e", "#7b2300", "#00187a"
+  "#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0", "#9966FF",
+  "#FF9F40", "#2ECC71", "#E74C3C", "#3498DB", "#F1C40F"
 ];
 // other colors
-const radius_color = "#FFD700";
+const radius_color = "#FFFFFF33";
 
 let currentAngle = -90;// 始点
 const radius = 80;
@@ -121,15 +121,15 @@ languagePercentages.forEach((item, index) => {
   const startAngle = currentAngle;
   const endAngle = currentAngle + sliceAngle;
   const midAngle = (startAngle + endAngle) / 2;
-  
+
   const startRad = (startAngle * Math.PI) / 180;
   const endRad = (endAngle * Math.PI) / 180;
-  
+
   const x1 = centerX + radius * Math.cos(startRad);
   const y1 = centerY + radius * Math.sin(startRad);
   const x2 = centerX + radius * Math.cos(endRad);
   const y2 = centerY + radius * Math.sin(endRad);
-  
+
   const largeArc = sliceAngle > 180 ? 1 : 0;
   const pathData = `
     M ${centerX} ${centerY}
@@ -137,15 +137,15 @@ languagePercentages.forEach((item, index) => {
     A ${radius} ${radius} 0 ${largeArc} 1 ${x2} ${y2}
     Z
   `;
-  
+
   // ラベルの位置を計算
   const midRad = (midAngle * Math.PI) / 180;
   const labelX = centerX + labelRadius * Math.cos(midRad);
   const labelY = centerY + labelRadius * Math.sin(midRad);
-  
+
   const color = colors[index % colors.length];
   svgPaths.push(`<path d="${pathData}" fill="${color}" stroke="${radius_color}" stroke-width="2"/>`);
-  
+
   // 割合が小さい場合はラベルを表示しない
   if (parseFloat(item.percentage) > 3) {
     svgLabels.push(`
@@ -157,7 +157,7 @@ languagePercentages.forEach((item, index) => {
       </text>
     `);
   }
-  
+
   currentAngle = endAngle;
 });
 
@@ -171,13 +171,13 @@ const svgContent = `<?xml version="1.0" encoding="UTF-8"?>
   
   <g transform="translate(220, 30)">
     ${languagePercentages.map((item, index) => {
-      const color = colors[index % colors.length];
-      const yOffset = index * 20;
-      return `
+  const color = colors[index % colors.length];
+  const yOffset = index * 20;
+  return `
         <rect x="0" y="${yOffset}" width="12" height="12" fill="${color}" stroke="${radius_color}" stroke-width="1"/>
         <text x="16" y="${yOffset + 10}" font-size="10" fill="#ffffff">${item.language}(${item.bytes} bytes)</text>
       `;
-    }).join("\n")}
+}).join("\n")}
   </g>
 </svg>`;
 

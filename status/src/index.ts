@@ -101,11 +101,11 @@ languagePercentages.forEach((item) => {
 --------------------*/
 // chart color list
 const colors = [
-  "#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0", "#9966FF",
-  "#FF9F40", "#2ECC71", "#E74C3C", "#3498DB", "#F1C40F"
+  "#004E89", "#9D0208", "#007F5F", "#B78727", "#3C096C",
+  "#6A040F", "#1B4332", "#854D0E", "#023E8A", "#540B0E"
 ];
 // other colors
-const radius_color = "#FFFFFF33";
+const radius_color = "#FFFFFF44";
 
 let currentAngle = -90;// 始点
 const radius = 80;

@@ -7,7 +7,7 @@ on:
 
 jobs:
   generate-chart:
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
     
     steps:
       - name: Checkout repository
@@ -20,12 +20,16 @@ jobs:
       
       - name: Install dependencies
         working-directory: status  #ディレクトリを移動
-        run: npm install
+        run: npm install --include=dev
       
       - name: Generate language chart
+        working-directory: status
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        run: ts-node status/src/index.ts
+        run: npx ts-node src/index.ts
+
+      - name: Move chart to root
+        run: mv status/language-chart.svg .
       
       - name: Commit and push changes
         run: |

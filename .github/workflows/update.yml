@@ -8,6 +8,8 @@ on:
 jobs:
   generate-chart:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout repository
@@ -26,7 +28,7 @@ jobs:
         working-directory: status
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        run: npx ts-node --esm src/index.ts
+        run: npx tsx src/index.ts
 
       - name: Move chart to root
         run: mv status/language-chart.svg .

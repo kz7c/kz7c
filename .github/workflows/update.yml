@@ -26,7 +26,7 @@ jobs:
         working-directory: status
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        run: npx ts-node src/index.ts
+        run: npx ts-node --esm src/index.ts
 
       - name: Move chart to root
         run: mv status/language-chart.svg .

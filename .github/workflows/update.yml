@@ -1,0 +1,35 @@
+name: Language Chart Update
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # 毎日12:00 UTC
+  workflow_dispatch:  # 手動実行可能
+
+jobs:
+  generate-chart:
+    runs-on: ubuntu-slim
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install dependencies
+        working-directory: status  #ディレクトリに移動
+        run: npm install
+      
+      - name: Generate language chart
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ts-node status/src/index.ts
+      
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add language-chart.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update language chart" && git push)

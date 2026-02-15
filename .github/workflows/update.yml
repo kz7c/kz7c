@@ -3,44 +3,41 @@ name: Language Chart Update
 on:
   schedule:
     - cron: '0 12 * * *'  # 毎日12:00 UTC
-  workflow_dispatch:  # 手動実行可能
+  workflow_dispatch:
 
 jobs:
   generate-chart:
     runs-on: ubuntu-slim
     permissions:
       contents: write
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
+          cache: 'npm'
+          cache-dependency-path: status/package-lock.json
+
       - name: Install dependencies
         working-directory: status
         run: npm ci
-      
+
       - name: Generate language chart
         working-directory: status
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx tsx src/index.ts
 
       - name: Move chart to root
         run: mv status/language-chart.svg .
-      
+
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add language-chart.svg
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-          git commit -m "chore: update language chart"
-          git push
+          git diff --staged --quiet || (git commit -m "chore: update language chart" && git push)

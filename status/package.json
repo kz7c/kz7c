@@ -1,0 +1,31 @@
+{
+  "name": "github-status",
+  "version": "1.0.0",
+  "description": "kz7c GitHub status",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kz7c/GitHub-status.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/kz7c/GitHub-status/issues"
+  },
+  "homepage": "https://github.com/kz7c/GitHub-status#readme",
+  "dependencies": {
+    "@types/node": "^25.2.3",
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

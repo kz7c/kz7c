@@ -1,8 +1,8 @@
 import * as fs from "fs";
 import dotenv from "dotenv";
 
-// ローカル実行時は .env から読み込む
-if (process.env.NODE_ENV !== "production") {
+// ローカルでは `.env` を読み、GitHub Actions 実行時は環境変数/シークレットを使う
+if (!process.env.GITHUB_ACTIONS && process.env.NODE_ENV !== "production") {
   dotenv.config();
 }
 

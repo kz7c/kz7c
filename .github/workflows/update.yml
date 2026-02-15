@@ -19,12 +19,12 @@ jobs:
           node-version: '20'
       
       - name: Install dependencies
-        working-directory: status  #ディレクトリに移動
+        working-directory: status  #ディレクトリを移動
         run: npm install
       
       - name: Generate language chart
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
         run: ts-node status/src/index.ts
       
       - name: Commit and push changes

@@ -15,6 +15,7 @@ type GitHubRepo = {
   name: string;
   language: string | null;
   languages_url: string;
+  fork: boolean;
 };
 
 type LanguageStats = { // Lang list
@@ -39,7 +40,7 @@ if (!response.ok) {
   throw new Error(`GitHub API error: ${response.status}`);
 }
 
-const repos: GitHubRepo[] = (await response.json());
+const repos: GitHubRepo[] = (await response.json() as GitHubRepo[]).filter(repo => !repo.fork);
 
 
 /*------------------

@@ -5,71 +5,57 @@
     <path d="
     M 80 80
     L 80 0
-    A 80 80 0 0 1 159.0616851695031 92.21678919186107
+    A 80 80 0 0 1 153.77499778796394 110.9394521830286
     Z
   " fill="#004E89" stroke="#FFFFFF44" stroke-width="2"/>
 <path d="
     M 80 80
-    L 159.0616851695031 92.21678919186107
-    A 80 80 0 0 1 56.47677398141567 156.4634411838664
+    L 153.77499778796394 110.9394521830286
+    A 80 80 0 0 1 61.32437089152759 157.7895936318141
     Z
   " fill="#9D0208" stroke="#FFFFFF44" stroke-width="2"/>
 <path d="
     M 80 80
-    L 56.47677398141567 156.4634411838664
-    A 80 80 0 0 1 2.848685460347184 101.15832377112032
+    L 61.32437089152759 157.7895936318141
+    A 80 80 0 0 1 0.18072727368104324 74.62564409054315
     Z
   " fill="#007F5F" stroke="#FFFFFF44" stroke-width="2"/>
 <path d="
     M 80 80
-    L 2.848685460347184 101.15832377112032
-    A 80 80 0 0 1 9.018513288102895 43.09974872485591
+    L 0.18072727368104324 74.62564409054315
+    A 80 80 0 0 1 79.99999999999999 0
     Z
   " fill="#B78727" stroke="#FFFFFF44" stroke-width="2"/>
-<path d="
-    M 80 80
-    L 9.018513288102895 43.09974872485591
-    A 80 80 0 0 1 80.0502654791501 0.000015791366521966665
-    Z
-  " fill="#3C096C" stroke="#FFFFFF44" stroke-width="2"/>
     
-      <text x="117.95902173558783" y="41.455988740212575" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
-        TypeScript
-      </text>
-      <text x="117.95902173558783" y="53.455988740212575" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
-        27.44%
-      </text>
-    
-
-      <text x="106.53887320001688" y="116.37556146263346" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
-        Assembly
-      </text>
-      <text x="106.53887320001688" y="128.37556146263347" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
-        27.31%
-      </text>
-    
-
-      <text x="44.10461825621291" y="108.80691841384117" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+      <text x="121.63446817673815" y="46.31298030411764" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
         C#
       </text>
-      <text x="44.10461825621291" y="120.80691841384117" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
-        15.99%
+      <text x="121.63446817673815" y="58.31298030411764" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+        31.32%
       </text>
     
 
-      <text x="30.279958628656033" y="68.71629996765103" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
-        HTML
+      <text x="102.6014988930356" y="118.60013730683025" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+        TypeScript
       </text>
-      <text x="30.279958628656033" y="80.71629996765103" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
-        11.89%
+      <text x="102.6014988930356" y="130.60013730683025" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+        22.43%
       </text>
     
 
-      <text x="54.062829210472145" y="31.253501062252326" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+      <text x="39.71598851743091" y="103.61753566507926" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+        Assembly
+      </text>
+      <text x="39.71598851743091" y="115.61753566507926" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+        22.32%
+      </text>
+    
+
+      <text x="45.85288168944944" y="37.47638693823867" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
         Others
       </text>
-      <text x="54.062829210472145" y="43.253501062252326" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
-        17.38%
+      <text x="45.85288168944944" y="49.47638693823867" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+        23.93%
       </text>
     
   </g>
@@ -77,23 +63,19 @@
   <g transform="translate(220, 30)">
     
         <rect x="0" y="0" width="12" height="12" fill="#004E89" stroke="#FFFFFF44" stroke-width="1"/>
-        <text x="16" y="10" font-size="10" fill="#ffffff">TypeScript(17789 bytes)</text>
+        <text x="16" y="10" font-size="10" fill="#ffffff">C#(24834 bytes)</text>
       
 
         <rect x="0" y="20" width="12" height="12" fill="#9D0208" stroke="#FFFFFF44" stroke-width="1"/>
-        <text x="16" y="30" font-size="10" fill="#ffffff">Assembly(17704 bytes)</text>
+        <text x="16" y="30" font-size="10" fill="#ffffff">TypeScript(17789 bytes)</text>
       
 
         <rect x="0" y="40" width="12" height="12" fill="#007F5F" stroke="#FFFFFF44" stroke-width="1"/>
-        <text x="16" y="50" font-size="10" fill="#ffffff">C#(10365 bytes)</text>
+        <text x="16" y="50" font-size="10" fill="#ffffff">Assembly(17704 bytes)</text>
       
 
         <rect x="0" y="60" width="12" height="12" fill="#B78727" stroke="#FFFFFF44" stroke-width="1"/>
-        <text x="16" y="70" font-size="10" fill="#ffffff">HTML(7706 bytes)</text>
-      
-
-        <rect x="0" y="80" width="12" height="12" fill="#3C096C" stroke="#FFFFFF44" stroke-width="1"/>
-        <text x="16" y="90" font-size="10" fill="#ffffff">Others(11269 bytes)</text>
+        <text x="16" y="70" font-size="10" fill="#ffffff">Others(18975 bytes)</text>
       
   </g>
 </svg>

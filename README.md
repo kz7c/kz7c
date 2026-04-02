@@ -2,7 +2,7 @@
 ## About Me
 わからないことは動かして理解するタイプです
 ## Skills
-<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=10&i=html,css,nodejs,js,ts,php,python,cpp" />  
+<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=10&i=html,css,nextjs,nodejs,js,ts,php,python,c,cpp,cs,dotnet" />  
 
 ## About Github
 ![stats](https://raw.githubusercontent.com/kz7c/kz7c/main/language-chart.svg)  

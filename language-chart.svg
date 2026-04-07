@@ -5,57 +5,57 @@
     <path d="
     M 80 80
     L 80 0
-    A 80 80 0 0 1 142.4344325870664 130.0194125068564
+    A 80 80 0 0 1 142.4972395218251 129.940915611867
     Z
   " fill="#004E89" stroke="#FFFFFF44" stroke-width="2"/>
 <path d="
     M 80 80
-    L 142.4344325870664 130.0194125068564
-    A 80 80 0 0 1 52.57017277440542 155.1505460949821
+    L 142.4972395218251 129.940915611867
+    A 80 80 0 0 1 52.711876862499004 155.20211656351557
     Z
   " fill="#9D0208" stroke="#FFFFFF44" stroke-width="2"/>
 <path d="
     M 80 80
-    L 52.57017277440542 155.1505460949821
-    A 80 80 0 0 1 0.014211809535268571 78.49212482276741
+    L 52.711876862499004 155.20211656351557
+    A 80 80 0 0 1 0.009869401467156536 78.7434146150544
     Z
   " fill="#007F5F" stroke="#FFFFFF44" stroke-width="2"/>
 <path d="
     M 80 80
-    L 0.014211809535268571 78.49212482276741
+    L 0.009869401467156536 78.7434146150544
     A 80 80 0 0 1 79.99999999999999 0
     Z
   " fill="#B78727" stroke="#FFFFFF44" stroke-width="2"/>
     
-      <text x="125.07275585561229" y="52.3563709239793" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+      <text x="125.05914786628152" y="52.32805515038907" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
         C#
       </text>
-      <text x="125.07275585561229" y="64.3563709239793" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
-        35.75%
+      <text x="125.05914786628152" y="64.32805515038908" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+        35.73%
       </text>
     
 
-      <text x="93.46616228018617" y="122.15249187159156" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+      <text x="93.54178339323092" y="122.13127987630097" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
         TypeScript
       </text>
-      <text x="93.46616228018617" y="134.15249187159156" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
-        19.82%
+      <text x="93.54178339323092" y="134.13127987630097" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+        19.81%
       </text>
     
 
-      <text x="38.76109525737855" y="102.2728268064761" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+      <text x="38.83228279023323" y="102.37638207623856" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
         Assembly
       </text>
-      <text x="38.76109525737855" y="114.2728268064761" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
-        19.73%
+      <text x="38.83228279023323" y="114.37638207623856" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+        19.71%
       </text>
     
 
-      <text x="44.97944246080967" y="38.31301988617895" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+      <text x="44.923428711457184" y="38.368074053739754" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
         Others
       </text>
-      <text x="44.97944246080967" y="50.31301988617895" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
-        24.70%
+      <text x="44.923428711457184" y="50.368074053739754" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="white" stroke="black" stroke-width="0.5" paint-order="stroke">
+        24.75%
       </text>
     
   </g>
@@ -75,7 +75,7 @@
       
 
         <rect x="0" y="60" width="12" height="12" fill="#B78727" stroke="#FFFFFF44" stroke-width="1"/>
-        <text x="16" y="70" font-size="10" fill="#ffffff">Others(22162 bytes)</text>
+        <text x="16" y="70" font-size="10" fill="#ffffff">Others(22231 bytes)</text>
       
   </g>
 </svg>

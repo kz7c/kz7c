@@ -7,3 +7,7 @@
 ## About My Github
 ![stats](https://raw.githubusercontent.com/kz7c/kz7c/main/language-chart.svg)  
 ![streak-stats](https://github-readme-streak-stats.herokuapp.com/?user=kz7c&&theme=tokyonight)
+
+## Links
+[![GitHub](https://img.shields.io/badge/GitHub-gray?logo=github)](https://github.com/kz7c)
+[![npm](https://img.shields.io/badge/NPM-gray?logo=npm)](https://www.npmjs.com/~kz7c)
